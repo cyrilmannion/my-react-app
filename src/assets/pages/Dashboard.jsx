@@ -38,9 +38,9 @@ function ColorToggleButton() {
       onChange={handleChange}
       aria-label="Platform"
     >
-      <ToggleButton value="web">Web</ToggleButton>
-      <ToggleButton value="android">Android</ToggleButton>
-      <ToggleButton value="ios">iOS</ToggleButton>
+      <ToggleButton value="Monday">Monday</ToggleButton>
+      <ToggleButton value="Tuesday">Tuesday</ToggleButton>
+      <ToggleButton value="Wednesday">Wednesday</ToggleButton>
     </ToggleButtonGroup>
   );
 }
