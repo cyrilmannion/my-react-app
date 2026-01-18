@@ -1,6 +1,7 @@
 
 // src/App.jsx
 import React from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
 import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import Dashboard from './assets/pages/Dashboard.jsx';
 import Login from './assets/pages/Login.jsx';
@@ -28,3 +29,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+<CssBaseline />
